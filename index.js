@@ -1,3 +1,6 @@
+// Grandma can't hear you if you're quiet
+// 
+
 function shout(string) {
   return string.toUpperCase()
 }
@@ -10,6 +13,8 @@ function logShout(string) {
 function logWhisper(string) {
   console.log(whisper(string));
 }
+
+// if lowercase, "I'cant hear you". If uppercase, "Yes Indeed", if string is "I love you, Grandma" she will say " I love you too."
 function sayHiToGrandma(string) {
   if (string == whisper(string)) {
     return "I can\'t hear you!"
